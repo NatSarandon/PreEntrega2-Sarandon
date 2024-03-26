@@ -1,0 +1,73 @@
+header {
+    position: relative;
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    background-color: #333333;
+    color: #f5f5f5;
+    padding: 0px;
+    border-radius: 10px;
+  }
+
+  /* Estilos para el logo */
+.logo {
+    width: auto; /* Ancho máximo para el logo */
+    margin: auto; /* Margen automático para centrar horizontalmente */
+    
+  }
+  
+.logo img {
+    width: 100%; /* Hacer que el logo ocupe todo el espacio disponible */
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para el título */
+h1 {
+    margin: 20px 0 0; /* Margen superior de 20px y margen inferior y lateral de 0 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0e0d0d; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  }
+  
+
+/*estilos para las columnas*/
+.columna {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+/* Estilos para el botón de WhatsApp */
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    background-color: #25D366;
+    color: #ffffff;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.btn-whatsapp img {
+    width: 100%;
+    height: auto;
+  }
+  
+.btn-whatsapp:hover {
+    background-color: #128C7E;
+  }
+
+/*estilos para servicios*/
+
+
+
+  
